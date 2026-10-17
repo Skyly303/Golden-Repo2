@@ -14,3 +14,44 @@ Size: 117610
 MD5sum: a07b26782967628379273449f0cb5f4d
 SHA1: a5d40c2f4d7907320fe427d2c9f85973a5148780
 SHA256: c2c8e6d06aa77d4e7425ee16cc4d60bcc8626ba6910862c3af178216c5d70826
+
+Package: siriport.ru.siri.ios6.1.x
+Name: SiriPort.Ru[Original-iOS6.1.x]
+Version: 1.0
+Pre-Depends: firmware (>= 6.1.3), firmware (<< 7.0), cy+model.iphone (= 2.1) | cy+model.iphone (= 3.1) | cy+model.iphone (= 3.2) | cy+model.iphone (= 3.3) | cy+model.ipod (= 4.1)
+Architecture: iphoneos-arm
+Description: Original Apple Siri for iPhone 4 and iPhone 3Gs & iPod Touch 4 running iOS 6.1.x
+Depiction: http://siriport.ru/siriport-ru-siri-ios-6-1-x-iphone-4-repo-siriport-ru/
+Homepage: http://SiriPort.Ru
+Maintainer: Dmitriy Garitskiy <http://SiriPort.Ru>
+Author: Dmitriy Garitskiy <http://SiriPort.Ru>
+Section: Siri
+Conflicts: gsc.ipad, location.fix.wordjelly, com.theblacknotebookinc.assistantconnect
+Depends: coreutils, com.ericasadun.utilities
+Tag: purpose::extension
+Filename: ./debs/SiriPort_iOS6_1_x_Original.deb
+Size: 22288436
+MD5sum: b53bb4cfbc15b4687cd46e08ce36db23
+SHA1: 7761774fb8cfb5a564c2f74c5d7082ff8353431b
+SHA256: c998eed723f044c28ff6726057904d6beda94deb34e26213481b0bdd9c6c877a
+
+Package: org.thebigboss.siriflipswitchtoggle
+Depends: firmware (>= 5.0), mobilesubstrate, com.a3tweaks.flipswitch, gsc.assistant
+Name: Siri Flipswitch
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Description: Toggle for Siri feature.
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=flipswitchsiriDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=flipswitchsiriDp
+Installed-Size: 1622
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: PoomSmart <poomst@hotmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Addons (Flipswitch)
+dev: poomst
+Tag: purpose::extension
+Filename: ./debs/flipswitchsiri_0.0.1-1.deb
+Size: 494228
+MD5sum: 4631ac90618e407b35804a1955e82da5
+SHA1: 167a495acea20cb2f88a628881bd4171e0ef9363
+SHA256: aa30974bdd89ede717c774bf6e8c9814b4f0948534ce666bf22178b9a3ab5553
