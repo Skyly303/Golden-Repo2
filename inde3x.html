@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guldpan Repo</title>
+<style>
+  body{margin:0;font-family:-apple-system,Helvetica,Arial,sans-serif;background:#1c1f26;color:#e8e8e8;line-height:1.5}
+  .wrap{max-width:640px;margin:0 auto;padding:24px 16px}
+  h1{margin:0 0 4px;font-size:28px}
+  p.sub{margin:0 0 24px;color:#9aa0aa}
+  .card{background:#262a33;border-radius:10px;padding:16px;margin-bottom:16px}
+  .card h2{margin:0 0 8px;font-size:18px}
+  code{display:block;background:#14161b;padding:10px;border-radius:6px;word-break:break-all;color:#d9b55f;font-size:14px}
+  a.btn{display:inline-block;margin-top:12px;background:#d9b55f;color:#1c1f26;text-decoration:none;font-weight:bold;padding:10px 16px;border-radius:8px}
+  ul{margin:0;padding-left:20px}
+  small{color:#9aa0aa}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Guldpan Repo</h1>
+  <p class="sub">Cydia repository for iOS 6 tools and tweaks.</p>
+
+  <div class="card">
+    <h2>Add to Cydia</h2>
+    <p>Open Cydia &rarr; Sources &rarr; Edit &rarr; Add, and enter:</p>
+    <code id="url"></code>
+    <a class="btn" id="add" href="#">Add to Cydia</a>
+  </div>
+
+  <div class="card">
+    <h2>Packages</h2>
+    <ul>
+      <li><b>Guldpan</b> &ndash; multi-page toolbox with Cydia tools, crash reports, cache cleaner and app launchers.</li>
+      <li><b>SiriPort</b> &ndash; Siri for iOS 6.1.x.</li>
+      <li><b>FlipSwitch Siri</b> &ndash; FlipSwitch toggle for Siri.</li>
+    </ul>
+  </div>
+
+  <p><small>Made for iOS 6 (armv7). Install at your own risk.</small></p>
+</div>
+<script>
+  var u = location.href.split('#')[0].split('?')[0].replace(/index\.html$/, '');
+  document.getElementById('url').textContent = u;
+  document.getElementById('add').href = 'cydia://url/https://cydia.saurik.com/api/share#?source=' + u;
+</script>
+</body>
+</html>
