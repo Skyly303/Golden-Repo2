@@ -1,0 +1,16 @@
+Package: com.noguldpan.app
+Name: Guldpan
+Version: 2.0-10
+Architecture: iphoneos-arm
+Description: Multi-page utility toolbox: Cydia tools, crash reports, cleaner, app launchers and respring.
+Maintainer: Guldpan
+Author: Guldpan
+Section: Utilities
+Depends: firmware (>= 6.0)
+Icon: file:///Applications/NoGuldpan.app/Icon@2x.png
+Installed-Size: 272
+Filename: ./debs/Guldpan_2.0-10_iphoneos-arm.deb
+Size: 117610
+MD5sum: a07b26782967628379273449f0cb5f4d
+SHA1: a5d40c2f4d7907320fe427d2c9f85973a5148780
+SHA256: c2c8e6d06aa77d4e7425ee16cc4d60bcc8626ba6910862c3af178216c5d70826
